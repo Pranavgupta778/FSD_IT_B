@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: yellow;
+        }
+        .contain{
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: white;
+            padding: 10px;
+        }
+        button[type="reset"]{
+            background-color: rgb(221, 36, 8);
+        }
+        button[type="submit"]{
+            background-color: rgb(43, 0, 255);
+        }
+        a{
+            color: green;
+        }
+        input[type="email"],input[type="password"]{
+            border: 2px solid rgb(232, 220, 220);
+            width: 500px;
+            height: 40px;
+        }
+        #center{
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <h1>REGISTER</h1>
+        <h3>PLease fill the form to create an account</h3>
+        <br>
+        <h2>Email</h2>
+        <input type="email" placeholder="enter email" id="email">
+        <h2>Password</h2>
+        <input type="password" placeholder="enter password" id="password">
+        <h2>Confirm Password</h2>
+        <input type="password" placeholder="Confirm the password" id="Confirm password">
+        <br>
+        <h3>By creating an account you sign to our<a href="Terms & privacy">Terms & privacy.</a></h3>
+        <span>
+            <button type="submit">REGISTER</button>
+            <button type="reset">Reset</button>
+        </span>
+        <h3 id="center">Already have an account? <a href="SIGN"> sign.</a></h3>
+    </div>
+</body>
+</html>
